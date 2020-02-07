@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zadaci za vježbanje 2 - drugi</title>
+    <style>
+     input[type=submit]{
+  border-radius: 24px;
+}
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+           <legend>License details</legend>
+           <ul>
+               <li>
+                   Email address
+                   <input type="text" name="email"required/>
+               </li>
+               <li>
+                   Website
+                   <input type="text" name="website" placeholder="https://www.example.com" required/>
+               </li>
+               <li>
+                  Number of licenses
+                  <input type="text" name="number of licenses" placeholder="How many to buy 1-10" required> 
+               </li>
+           </ul>
+        </fieldset>
+        <fieldset>
+           <legend>Billing details</legend>
+           <ul>
+               <li>
+                   Name
+                   <input type="text" name="first name" placeholder="First name" required />
+               </li>
+               <li>
+                Address
+                <textarea name="address" rows="3" cols="19" placeholder="House number, streer, city state" required></textarea>
+               </li>
+               <li>
+                   Postal Code 
+                   <input type="text" name="Postal Code" placeholder="Post code or zip code" required/>
+               </li>
+               <li>
+                   Country
+                   <select name="Country" required>
+                       <option value="Crna Gora">Crna Gora</option>
+                       <option value="Srbija">Srbija</option>
+                       <option value="Hrvatska">Hrvatska</option>
+                       <option value="Bosna i Hercegovina">Bosna i Hercegovina</option>
+                       <option value="Sjeverna Makedonija">Sjeverna Makedonija</option>
+                   </select>
+               </li>
+               <li>
+                   Phone (optional)
+                   <input type="text" name="phone" placeholder="include country prefix, e.g."/>
+               </li>
+           </ul>
+        </fieldset>
+        <fieldset>
+    <legend>Payment details</legend>
+                <li>
+                  Card Number 
+                  <input type="text" name="card number" placeholder="As show on the front of yo" required/>
+                </li>
+                <li>
+                    CVV code 
+                    <input type="text" name="cvv code" placeholder="3-digit number on back off" required/>        
+                </li>
+                <li>
+                    Empiry date
+                    <input type="text" name="empiry date" placeholder="YYYY-MM" required/>
+                </li>
+
+        </fieldset>
+                    <input type="submit" value="Place Your Order"/>     
+    </form>
+</body>
+</html>

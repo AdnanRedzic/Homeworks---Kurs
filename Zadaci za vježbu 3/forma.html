@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forma</title>
+</head>
+<body>
+    <form method="GET">
+             <h2>Job Aplication With Resume Upload</br></h2>
+             <strong>Contact Information</br></strong>
+        <table border="0" cellpadding="5"cellspacing="0">
+            <tr>
+                <td style="width:50%">
+                    <label for="First_Name"><b>First Name*</b></label></br>
+                    <input name="First_Name" type="text" required/>
+                </td>
+                <td style="width:50%;">
+                    <label for="Last_Name"><b>Last Name*</b></label></br>
+                    <input name="Last_Name" type="text" required/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="Email"><b>Email*</b></label></br>
+                    <input name="Email" type="email"  style="width: 99%;" required/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="Phone"><b>Phone*</b></label></br>
+                    <input name="Phone" type="tel"  style="width: 99%;" required/>
+                </td>                
+            </tr>
+            <tr>
+                <td colspan="2">
+                <label><strong>Positon</strong></br></br>
+                <label for="Position your applaying for"><b>Position your applaying for*</b></label></label></br>
+                <select style="width: 100%;">
+                    <option value="Backend NodeJS">Backend NodeJS</option>
+                    <option value="Backend Python">Backend Python</option>
+                    <option value="Frontend React">Frontend React</option>
+                    <option value="Frontend Angular"selected>Frontend Angular</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                 <label for="Resume upload"><b>Resume upload</b></label></br>
+                 <input name="Browse" type="file"/> 
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2">
+                 <label for="portfolio"><b>Portfolio website</b></label></br>
+                 <input name="portfolio" type="text" style="width: 100%;"/> 
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2">
+                 <label for="Salary requirements"><b>Salary requirements</b></label></br>
+                 <input name="Salary requirements" type="text" style="width: 100%;"/> 
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2">
+                 <label for="When can you start?"><b>When can you start?</b></label></br>
+                 <input name="When can you start?" type="text" style="width: 100%;"/> 
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2">
+                 <label for="Are you willing to relocate?"><b>Are you willing to relocate?</b></label></br>
+                 <input name="Are you willing to relocate?" type="radio" />Yes</br>
+                 <input name="Are you willing to relocate?" type="radio" />No</br>
+                 <input name="Are you willing to relocate?" type="radio" />Not sure
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2">
+                 <label for="Last company you worked for"><b>Last company you worked for</b></label></br>
+                 <input name="Last company you worked for" type="text" style="width: 100%;"/> 
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2">
+                 <label for="Comments"><b>Comments</b></label></br>
+                 <textarea name="comments" style="width: 100%;" rows="5"></textarea>
+                </td> 
+            </tr>
+            <tr>
+                <td> 
+                 <input name="submit" type="submit" /> 
+                </td>
+            </tr>
+       </table>
+    </form>
+
+</body>
+</html>

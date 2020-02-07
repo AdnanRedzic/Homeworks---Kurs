@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zadaci za vježbu 2 - prvi</title>
+</head>
+<body>
+    <table border="1">
+        <form>
+           <tr><td colspan="2" align="center"><b>Pizza Shop 2.0</b></td></tr>
+           <tr>
+                <td>Name</td>
+                <td><input type="text" name="Name" maxlength="20" required/></td>
+            </tr>
+            <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <input type="radio" name="Supreme"/>Supreme</br>
+                    <input type="radio" name="Vegetarian"/>Vegetarian</br>
+                    <input type="radio" name="Hawaiian"/>Hawaiian</br>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Sauce</td>
+                <td>
+                    <select name="Pizza Sauce">
+                        <option value="Tomato">Tomato</option>
+                        <option value="Garlic">Garlic</option>
+                        <option value="Hot Sauce">Hot Sauce</option>
+                        <option value="Mayo">Mayo</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type="checkbox" name="Extra Cheese"/> Extra Cheese
+                    <input type="checkbox" name="Gluten Free Base"/> Gluten Free Base
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Delivery Instructions:</br>
+                    <textarea name="Delivery Instructions" rows="3" cols="60" maxlength="100" required ></textarea>
+                </td>               
+
+            </tr>
+           <tr>
+               <td colspan="2">
+                   <input type="submit" value="Send my Order"/>
+                </td>
+            </tr>  
+            
+        </form>
+
+    </table>
+</body>
+</html>
